@@ -9,6 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class GreetingController {
     @GetMapping
     public String greet() {
-        return "Hi";
+        return "Hello";
     }
 }
